@@ -8,6 +8,31 @@ body
     padding: 0;
 
 }
+
+#header
+{
+    background: rgb(86, 107, 224);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    margin: 5;
+    padding: 0.5em;
+    -webkit-box-shadow: inset 0px 1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 1px 14px -1px rgba(255, 255, 255, 0.75);
+    box-shadow: inset 0px 1px 14px -1px rgba(0,0,0,0.75);
+    
+}
+
+#header #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+
 #container
 {
     width: 70%;
@@ -19,4 +44,10 @@ body
 #container h1
 {
     font-size: 20px;
+}
+
+ul
+{
+    list-style: none;
+
 }
