@@ -1,7 +1,7 @@
 body
 {
 
-    color:rgba(235, 37, 23, 0.398);
+    color:rgba(0, 0, 0, 0.398);
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -39,7 +39,7 @@ body
     width: 70%;
     padding: 1em;
     text-align: center;
-    border: 1px solid rgb(239, 200, 200);
+    border: 1px solid rgb(0, 0, 0);
     margin: 0 auto;
 }
 #container h1
@@ -50,5 +50,20 @@ body
 ul
 {
     list-style: none;
+    color:rgba(0, 0, 0, 0.398);
 
+}
+
+#footer
+{
+    background: rgb(86, 37, 151);
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 5;
+    padding: 0.5em;
+    -webkit-box-shadow: inset 0px 1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 1px 14px -1px rgba(255, 255, 255, 0.75);
+    box-shadow: inset 0px 1px 14px -1px rgba(0,0,0,0.75);
 }
